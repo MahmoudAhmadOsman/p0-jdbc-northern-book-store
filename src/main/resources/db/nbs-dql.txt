@@ -1,0 +1,12 @@
+SELECT * FROM users;
+SELECT * FROM books;
+SELECT * FROM orders;
+SELECT * FROM carts;
+SELECT * FROM payments;
+
+
+
+--admin sql query
+update users 
+set role ='ADMIN'
+where username ='osman8080';
