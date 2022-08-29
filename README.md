@@ -102,7 +102,7 @@ ________________________________________________________________________________
 
 ### ERD Schema Design
 
-[ERD Schema Design](https://github.com/MahmoudAhmadOsman/p0-jdbc-nbs/blob/main/src/main/resources/design/nbs-new-erd.png)
+![ERD Schema Design](https://github.com/MahmoudAhmadOsman/p0-jdbc-nbs/blob/main/src/main/resources/design/nbs-new-erd.png)
 
 
 
