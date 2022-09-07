@@ -1,6 +1,6 @@
 ## P0 - Northern Book Store
 
-The Northern Book Store is a book management system that allows customers to purchase books from the online book store.  
+The Northern Book Store is a book management system that allows customers to purchase books from  online using our website.  
 
 ## Functionality
 
