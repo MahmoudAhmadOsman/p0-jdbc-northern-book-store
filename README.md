@@ -12,7 +12,7 @@ Since this application is based on Java console, customers or users will be able
 
 ##### After creating an account
 - Customer will be able to
- * Login using username and password
+   - Login using username and password
  * see all the available books that the Northern Book Store has on its inventory
  * view individual book using by the book isbn 
  * able to place multiple orders by using the book's isbn
