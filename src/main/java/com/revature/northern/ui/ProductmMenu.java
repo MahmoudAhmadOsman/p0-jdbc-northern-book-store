@@ -59,8 +59,7 @@ public class ProductmMenu implements IMenu {
                     double price=sc.nextDouble();
                     System.out.println("Enter the book publisher");
                     String publisher=sc.next();
-//                    Book boo = new Book(20,"isbn","author","publishedDate","price","publisher");
-              bookDAO.save(book);
+                    bookDAO.save(book); // save the new input
 
                     break;
 
