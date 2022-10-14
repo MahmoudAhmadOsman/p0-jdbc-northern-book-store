@@ -11,9 +11,9 @@ Since this application is based on Java console, customers or users will be able
 - Logging in with the username and the password that the customer created
 
 ##### After creating an account
-- Customer will be able to
+- A User will be able to
    - signup
-   - Login with username & password
+   - login with username & password
    - see all the available books on Northern Book Store
    - view each book using isbn 
    - place multiple orders
