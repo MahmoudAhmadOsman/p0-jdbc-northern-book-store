@@ -1,6 +1,6 @@
 ## P0 - Northern Book Store
 
-The Northern Book Store is a book management system that allows customers to purchase books from  online using our website.  
+The Northern Book Store is a book management system that allows customers to purchase books from  online using our online system.  
 
 ## Functionality
 
@@ -12,24 +12,24 @@ Since this application is based on Java console, customers or users will be able
 
 ##### After creating an account
 - Customer will be able to
-   - Login using username and password
-   - see all the available books that the Northern Book Store has on its inventory
-   - view individual book using by the book isbn 
-   - able to place multiple orders by using the book's isbn
-   - able to review all of his/her orders in details
-   - able to search any book that is available in Northern Book Store inventory
+   - signup
+   - Login with username & password
+   - see all the available books on Northern Book Store
+   - view each book using isbn 
+   - place multiple orders
+   - review orders
+   - search any book
 
 ##### Managers
-- Managers will be able to create or add a new book into the inventory
-- The inventory will be viewable by customers as soon as the managers listed on the Nothern Book Store's application
-- Managers will have all the privileges to control the application
-- Mangers will be able to change any user's status such disabling user's account or granting him/her an access level than the normal user
+- Managers will be able to create or add a new inventory
+- The inventory will be viewable by customers immediately
+- Managers will have all privileges to manager users & the inventory
+- Mangers will be able to change  user's status
 
 
 ## Application Overall Structure
-- This application is implementing one of the many methodologies of designs or MVCs
 
-### Models
+#### Models
 
 ```bash
 
@@ -40,7 +40,6 @@ Since this application is based on Java console, customers or users will be able
 ```
 
 ### Service
-- This part of the application is where I will perform the business login and other necessary validation
 
 ```bash
 
@@ -50,7 +49,6 @@ Since this application is based on Java console, customers or users will be able
 ```
 
 ### DAO
-- Also, this part of the application is where I will perform all the necessary data access object
 
 ```bash
 
@@ -73,9 +71,7 @@ Since this application is based on Java console, customers or users will be able
 
 
 ### Database
-- In this section, I will perform or conduct database interactivity login. For this application, I will be using JDBC technology and [Postgress](https://www.postgresql.org/) as my application backend database storage
-Add as much models as you would need for your design
-
+- In this section, I will implement database connectivity and I will be using JDBC technology and [Postgress](https://www.postgresql.org/) as database storage for this application.
 
 ### Host
 - This application will be hosted on AWS on one of the EC2 instance
