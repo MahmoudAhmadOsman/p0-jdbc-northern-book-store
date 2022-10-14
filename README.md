@@ -21,7 +21,7 @@ Since this application is based on Java console, customers or users will be able
    - search any book
 
 ##### Managers
-- Managers will be able to create or add a new inventory
+- Managers will be able to create new inventory
 - The inventory will be viewable by customers immediately
 - Managers will have all privileges to manager users & the inventory
 - Mangers will be able to change  user's status
