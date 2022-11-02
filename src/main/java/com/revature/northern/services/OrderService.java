@@ -45,7 +45,7 @@ public class OrderService {
     }
 
 
-    /******* OrderService Validation methods *********/
+    /******* OrderService Validation Methods *********/
 
     boolean isValidName(String name) {
         if (name.isEmpty()) throw new InvalidUserException(RED + "\nOrder title is required!" + RESET);
