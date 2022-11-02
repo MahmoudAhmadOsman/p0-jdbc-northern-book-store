@@ -45,7 +45,7 @@ public class BookService {
     }
 
 
-    /******* BookService Validation methods *********/
+    /******* BookService Validation Methods *********/
 
     public boolean isValidISBN(String isbn) {
         if (isbn.isEmpty()) throw new InvalidUserException(RED + "\nISBN is required!" + RESET);
