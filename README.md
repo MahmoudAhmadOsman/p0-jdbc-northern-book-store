@@ -71,7 +71,7 @@ Since this application is based on Java console, customers or users will be able
 
 
 ### Database
-- In this section, I will implement database connectivity and I will be using JDBC technology and [Postgress](https://www.postgresql.org/) as database storage for this application.
+- I will be using Postgress[Postgress](https://www.postgresql.org/) as database storage for this application.
 
 ### Host
 - This application will be hosted on AWS on one of the EC2 instance
