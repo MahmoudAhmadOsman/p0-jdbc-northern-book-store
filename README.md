@@ -71,10 +71,10 @@ Since this application is based on Java console, customers or users will be able
 
 
 ### Database
-- I will be using Postgress[Postgress](https://www.postgresql.org/) as database storage for this application.
+- This application is using Postgress[Postgress](https://www.postgresql.org/) as a backend database storage.
 
 ### Host
-- This application will be hosted on AWS on one of the EC2 instance
+- This application will be hosted on AWS, EC2 instance and uses RDS (Postgress) as a database.
 
 
 ## Tech Stack 
