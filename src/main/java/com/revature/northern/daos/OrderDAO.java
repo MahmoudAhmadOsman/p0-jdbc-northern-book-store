@@ -32,7 +32,7 @@ public class OrderDAO implements CrudDAO<Order> {
 
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new InvalidSQLException("An error occurred while tyring to save order into the database!!1.");
+            throw new InvalidSQLException("An error occurred while tyring to save order into the database!!.");
         }
     }
 
