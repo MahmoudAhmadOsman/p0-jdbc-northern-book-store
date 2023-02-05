@@ -19,33 +19,32 @@ public class OrderService {
         this.orderDAO = orderDAO;
     }
 
-//1. Submit an order method
-
+    //POST
     public void submitOrder(Order order) {
         orderDAO.save(order);
     }
 
 
-    //Get all order method
-
+    //GET
     public List<Order> getAllOrders() {
         return orderDAO.getAll();
     }
 
 
-    //Delete an order
+    //DELETE
     public void deleteOrder(String order) {
         orderDAO.delete(order);
     }
 
 
-    //Get an order by id
+    //GET BY ID
     public void getOrderById(String id) {
         orderDAO.getById(id);
     }
 
 
-    /******* OrderService Validation Methods *********/
+    
+    /******* Order Validations *********/
 
     boolean isValidName(String name) {
         if (name.isEmpty()) throw new InvalidUserException(RED + "\nOrder title is required!" + RESET);
