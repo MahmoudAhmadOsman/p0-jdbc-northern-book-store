@@ -98,7 +98,8 @@ public class UserServiceTest  {
         String validPassword = "osman8080";
         when(spiedSut.isValidUsername(validUsername)).thenReturn(true);
         when(spiedSut.isValidPassword(validPassword)).thenReturn(true);
-        when(mockUserDAO.getUserByUsernameAndPassword(validUsername, validPassword)).thenReturn(new User());
+        when(mockUserDAO.getUserByUsernameAndPassword(validUsername, validPassword))
+        .thenReturn(new User());
 
         // Act
         User user = spiedSut.login(validUsername, validPassword);
