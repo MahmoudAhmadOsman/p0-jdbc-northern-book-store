@@ -1,6 +1,4 @@
-## P0 - Northern Book Store
-
-# Northern Book Store
+# P0 - Northern Book Store
 
 Welcome to the Northern Book Store, a comprehensive book management system that empowers customers to effortlessly purchase books online through our user-friendly online platform.
 
