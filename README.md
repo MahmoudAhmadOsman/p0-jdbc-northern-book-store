@@ -38,7 +38,7 @@ In addition to the above customer-centric features, managers have access to addi
 
 4. **Privilege Control**: Managers have full control over user privileges, allowing them to tailor access levels as needed for their team.
 
-At Northern Book Store, we aim to provide an exceptional online book shopping experience for both customers and managers. Enjoy a vast selection of books, seamless transactions, and efficient management capabilities with our user-friendly system.
+At Northern Book Store, we aim to provide an exceptional online book shopping experience for both customers and managers. Enjoy a vast selection of books, seamless transactions, and efficient management capabilities with our user-friendly system. For more information, please refer to our [detailed documentation](documentation.md).
 
 
 ## Application Overall Structure
