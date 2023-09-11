@@ -1,30 +1,44 @@
 ## P0 - Northern Book Store
 
-The Northern Book Store is a book management system that allows customers to purchase books from  online using our online system.  
+Welcome to the Northern Book Store, a comprehensive book management system that empowers customers to effortlessly purchase books online through our user-friendly online platform.
 
 ## Functionality
 
-Since this application is based on Java console, customers or users will be able to do the following
+Our application, built on Java console, offers a wide range of features to enhance the customer experience. Users, whether customers or managers, can perform the following actions:
 
-- User or customer will be able to create an account by:
-- creating a username, password, email & his/her full name
-- Logging in with the username and the password that the customer created
+### Customers
 
-##### After creating an account
-- A User will be able to
-   - signup
-   - login with username & password
-   - see all the available books on Northern Book Store
-   - view each book using isbn 
-   - place multiple orders
-   - review orders
-   - search any book
+1. **Account Creation**: Customers can easily create an account by providing the following details:
+    - Username
+    - Password
+    - Email
+    - Full Name
 
-##### Managers
-- Managers will be able to create new inventory
-- The inventory will be viewable by customers immediately
-- Managers will have all privileges to manager users & the inventory
-- Mangers will be able to change  user's status
+2. **User Login**: After creating an account, customers can securely log in using their username and password.
+
+3. **Book Selection**: Once logged in, users can explore our extensive collection of books available at the Northern Book Store.
+
+4. **Book Details**: Users can access detailed information about each book by searching using its ISBN (International Standard Book Number).
+
+5. **Order Placement**: Customers have the convenience of placing multiple book orders, ensuring a seamless shopping experience.
+
+6. **Order Review**: Users can review their previous orders, facilitating efficient order management.
+
+7. **Book Search**: A powerful search feature enables users to quickly locate any book they desire.
+
+### Managers
+
+In addition to the above customer-centric features, managers have access to additional privileges:
+
+1. **Inventory Management**: Managers can create and update the store's inventory, ensuring that customers have access to the latest book selections.
+
+2. **Real-time Inventory Updates**: Any changes made to the inventory are immediately visible to customers, ensuring accurate and up-to-date listings.
+
+3. **User Management**: Managers can efficiently manage user accounts, including modifying user privileges and statuses.
+
+4. **Privilege Control**: Managers have full control over user privileges, allowing them to tailor access levels as needed for their team.
+
+At Northern Book Store, we aim to provide an exceptional online book shopping experience for both customers and managers. Enjoy a vast selection of books, seamless transactions, and efficient management capabilities with our user-friendly system.
 
 
 ## Application Overall Structure
