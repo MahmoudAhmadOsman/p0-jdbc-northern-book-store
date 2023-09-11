@@ -54,6 +54,8 @@ At Northern Book Store, we aim to provide an exceptional online book shopping ex
 
 ### Service
 
+- The service layer provides business logic and operations for the application, ensuring proper interactions between models and the database. Key services include:
+
 ```bash
 
 1. UserService
@@ -62,6 +64,8 @@ At Northern Book Store, we aim to provide an exceptional online book shopping ex
 ```
 
 ### DAO
+
+- Data Access Objects interact with the database to perform CRUD (Create, Read, Update, Delete) operations on the application's models. These DAOs are responsible for data retrieval and storage:
 
 ```bash
 
@@ -75,6 +79,8 @@ At Northern Book Store, we aim to provide an exceptional online book shopping ex
 
 ### Roles
 
+- The application distinguishes between two primary user roles:
+
 ```bash
 
 1. Admin(Manager)
@@ -84,10 +90,14 @@ At Northern Book Store, we aim to provide an exceptional online book shopping ex
 
 
 ### Database
-- This application is using Postgress[Postgress](https://www.postgresql.org/) as a backend database storage.
+
+- -The application relies on PostgreSQL as the backend database storage. PostgreSQL is a robust relational database management system, ensuring data integrity and scalability.
 
 ### Host
-- This application will be hosted on AWS, EC2 instance and uses RDS (Postgress) as a database.
+
+- The application will be hosted on Amazon Web Services (AWS) using an EC2 instance. Additionally, AWS RDS (Relational Database Service) with PostgreSQL will serve as the database infrastructure, ensuring secure, scalable, and highly available data storage for the application.
+
+- This well-structured architecture ensures that the application efficiently manages user accounts, orders, payments, and book data while providing a seamless experience for both administrators and customers.
 
 
 ## Tech Stack 
